@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Claymore</title>
+</head>
+
+<body>
+    <div class="col-12">
+        <header>
+            <div class="bg-1">
+                <div class="container">
+                    <div class="col-3 col-m-5">
+                        <div class="logo">
+                            <p>Claymore</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-m-7">
+                        <span class="nav-button"></span>
+                        <ul class="nav">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Service</li>
+                            <li>Features</li>
+                            <li>Price</li>
+                            <li>Contact</li>
+                            <li id="login">Login</li>
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <div class="header-bottom">
+                            <div class="col-6 col-m-12">
+                                <div id="ipad-psd">
+                                    <img src="img/ipad.png" alt="iPad">
+                                </div>
+                            </div>
+                            <div class="header-right-info">
+                                <div class="col-6 col-m-12">
+
+                                    <h1>Quam eleifend metus commodo</h1>
+
+                                    <div class="info">
+                                        <p>luctus at sit amet urna. Quisque non augue tincidunt, egest as massa non, elementum sem. Suspendisse mollis nulla eu lorem ultricies dapibus.</p>
+                                    </div>
+                                </div>
+                                <div class="header-buttons">
+                                    <input type="button" class="btn-1" value="Purchase now">
+                                    <img src="img/or.png" alt="or">
+                                    <input type="button" class="btn-2" value="Learn more">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="col-12">
+        <div class="section-1">
+            <div class="container">
+                <div class="col-8">
+                    <h2>About us</h2>
+                    <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam. Donec hendrerit neque sit amet tellus ornare et semper lorem lacinia. Suspendisse ac pellentesque odio. Nunc pharetra malesuada nisi ac condimentum. Curabitur porttitor pulvinar </p>
+                </div>
+                <div class="col-4">
+                    <div class="stat-img">
+                        <img src="img/stat-1.png" alt="statistic-img-1">
+                        <img src="img/stat-2.png" id="stat-img-2" alt="statistic-img-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="bg-2">
+            <div class="container">
+                <div class="col-4 col-m-12">
+                    <div class="section-2">
+                        <div class="section-bg">
+                            <div class="section-bg-icon">
+                                <img src="img/bg-2-section-2-img-1.png" alt="baker-shape">
+
+                                <h1>Fully Baked Up</h1>
+
+                                <p>Curabitur tincidunt dapibus odio, eu gravida felis blandit vel. Vivamus feugiat auctor lorem non eleifend. Nam eu pellentesque est, vitae interdum nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-m-12">
+                    <div class="section-2">
+                        <div class="section-bg">
+                            <div class="section-bg-icon">
+                                <img src="img/bg-2-section-2-img-2.png" alt="baker-shape">
+
+                                <h1>Build With Love</h1>
+
+                                <p>Nullam dignissim felis diam, sed ultricies nisl ultricies quis. Maecenas feugiat urna ante, et viverra tellus facilisis ut. In hac habitasse platea dictumst.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-m-12">
+                    <div class="section-2">
+                        <div class="section-bg">
+                            <div class="section-bg-icon">
+                                <img src="img/bg-2-section-2-img-3.png" alt="baker-shape">
+
+                                <h1>Fully Responsive</h1>
+
+                                <p>Aliquam mattis massa at urna tincidunt ultrices. Curabitur lobortis ante vulputate, imperdiet felis a, adipiscing odio aliquam pharetra molestie mauris
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="section-3-bg-3">
+            <div class="bg-3">
+                <div class="container">
+                    <div class="bg-3-text">
+                        <h1>Lorem ipsum dolor sit amet</h1>
+                        <p>consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.</p>
+                    </div>
+
+                    <!--Responsive menu button-->
+
+                    <script>
+                        
+                        $('span.nav-button').click(function () {
+
+                            $('.nav li').slideToggle();
+
+                        })
+
+                        $(window).resize(function () {
+
+                            if ($(window).width() > 952) {
+
+                                $('.nav li').removeAttr('style');
+
+                            }
+
+                        })
+                    </script>
+
+                    <!--Slider-->
+
+                    <div class="slider">
+                       
+                        <!-- #region Jssor Slider Begin -->
+                        <!-- Generated by Jssor Slider Maker. -->
+                        <!-- This demo works with jquery library -->
+                        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+                        <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+                        <!-- use jssor.slider.debug.js instead for debug -->
+                        <script>
+                            jQuery(document).ready(function ($) {
+
+                                var jssor_1_SlideoTransitions = [
+                  [{
+                                        b: 5500,
+                                        d: 3000,
+                                        o: -1,
+                                        r: 240,
+                                        e: {
+                                            r: 2
+                                        }
+                                    }],
+                  [{
+                                        b: -1,
+                                        d: 1,
+                                        o: -1,
+                                        c: {
+                                            x: 51.0,
+                                            t: -51.0
+                                        }
+                                    }, {
+                                        b: 0,
+                                        d: 1000,
+                                        o: 1,
+                                        c: {
+                                            x: -51.0,
+                                            t: 51.0
+                                        },
+                                        e: {
+                                            o: 7,
+                                            c: {
+                                                x: 7,
+                                                t: 7
+                                            }
+                                        }
+                                    }],
+                  [{
+                                        b: -1,
+                                        d: 1,
+                                        o: -1,
+                                        sX: 9,
+                                        sY: 9
+                                    }, {
+                                        b: 1000,
+                                        d: 1000,
+                                        o: 1,
+                                        sX: -9,
+                                        sY: -9,
+                                        e: {
+                                            sX: 2,
+                                            sY: 2
+                                        }
+                                    }],
+                  [{
+                                        b: -1,
+                                        d: 1,
+                                        o: -1,
+                                        r: -180,
+                                        sX: 9,
+                                        sY: 9
+                                    }, {
+                                        b: 2000,
+                                        d: 1000,
+                                        o: 1,
+                                        r: 180,
+                                        sX: -9,
+                                        sY: -9,
+                                        e: {
+                                            r: 2,
+                                            sX: 2,
+                                            sY: 2
+                                        }
+                                    }],
+                  [{
+                                        b: -1,
+                                        d: 1,
+                                        o: -1
+                                    }, {
+                                        b: 3000,
+                                        d: 2000,
+                                        y: 180,
+                                        o: 1,
+                                        e: {
+                                            y: 16
+                                        }
+                                    }],
+                  [{
+                                        b: -1,
+                                        d: 1,
+                                        o: -1,
+                                        r: -150
+                                    }, {
+                                        b: 7500,
+                                        d: 1600,
+                                        o: 1,
+                                        r: 150,
+                                        e: {
+                                            r: 3
+                                        }
+                                    }],
+                  [{
+                                        b: 10000,
+                                        d: 2000,
+                                        x: -379,
+                                        e: {
+                                            x: 7
+                                        }
+                                    }],
+                  [{
+                                        b: 10000,
+                                        d: 2000,
+                                        x: -379,
+                                        e: {
+                                            x: 7
+                                        }
+                                    }],
+                  [{
+                                        b: -1,
+                                        d: 1,
+                                        o: -1,
+                                        r: 288,
+                                        sX: 9,
+                                        sY: 9
+                                    }, {
+                                        b: 9100,
+                                        d: 900,
+                                        x: -1400,
+                                        y: -660,
+                                        o: 1,
+                                        r: -288,
+                                        sX: -9,
+                                        sY: -9,
+                                        e: {
+                                            r: 6
+                                        }
+                                    }, {
+                                        b: 10000,
+                                        d: 1600,
+                                        x: -200,
+                                        o: -1,
+                                        e: {
+                                            x: 16
+                                        }
+                                    }]
+                ];
+
+                                var jssor_1_options = {
+                                    $AutoPlay: true,
+                                    $SlideDuration: 800,
+                                    $SlideEasing: $Jease$.$OutQuint,
+                                    $CaptionSliderOptions: {
+                                        $Class: $JssorCaptionSlideo$,
+                                        $Transitions: jssor_1_SlideoTransitions
+                                    },
+                                    $ArrowNavigatorOptions: {
+                                        $Class: $JssorArrowNavigator$
+                                    },
+                                    $BulletNavigatorOptions: {
+                                        $Class: $JssorBulletNavigator$
+                                    }
+                                };
+
+                                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                                //responsive code begin
+                                //you can remove responsive code if you don't want the slider scales while window resizing
+                                function ScaleSlider() {
+                                    var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                                    if (refSize) {
+                                        refSize = Math.min(refSize, 1920);
+                                        jssor_1_slider.$ScaleWidth(refSize);
+                                    } else {
+                                        window.setTimeout(ScaleSlider, 30);
+                                    }
+                                }
+                                ScaleSlider();
+                                $(window).bind("load", ScaleSlider);
+                                $(window).bind("resize", ScaleSlider);
+                                $(window).bind("orientationchange", ScaleSlider);
+                                //responsive code end
+                            });
+                        </script>
+
+                        <style>
+                            /* jssor slider bullet navigator skin 05 css */
+                            /*
+            .jssorb05 div           (normal)
+            .jssorb05 div:hover     (normal mouseover)
+            .jssorb05 .av           (active)
+            .jssorb05 .av:hover     (active mouseover)
+            .jssorb05 .dn           (mousedown)
+            */
+                            
+                            .jssorb05 {
+                                position: absolute;
+                            }
+                            
+                            .jssorb05 div,
+                            .jssorb05 div:hover,
+                            .jssorb05 div {
+                                background-position: -7px -7px;
+                            }
+                            
+                            .jssorb05 div:hover,
+                            .jssorb05 .av:hover {
+                                background-position: -37px -7px;
+                            }
+                            
+                            .jssorb05 .av {
+                                background-position: -67px -7px;
+                            }
+                            
+                            .jssorb05 .dn,
+                            .jssorb05 .dn:hover {
+                                background-position: -97px -7px;
+                            }
+                            /* jssor slider arrow navigator skin 22 css */
+                            /*
+            .jssora22l                  (normal)
+            .jssora22r                  (normal)
+            .jssora22l:hover            (normal mouseover)
+            .jssora22r:hover            (normal mouseover)
+            .jssora22l.jssora22ldn      (mousedown)
+            .jssora22r.jssora22rdn      (mousedown)
+            */
+                            
+                            .jssora22l,
+                            .jssora22r {
+                                display: block;
+                                position: absolute;
+                                /* size of arrow element */
+                                width: 40px;
+                                height: 58px;
+                                cursor: pointer;
+                                background: url('img/a22.png') center center no-repeat;
+                                overflow: hidden;
+                            }
+                            
+                            .jssora22l {
+                                background-position: -10px -31px;
+                            }
+                            
+                            .jssora22r {
+                                background-position: -70px -31px;
+                            }
+                            
+                            .jssora22l:hover {
+                                background-position: -130px -31px;
+                            }
+                            
+                            .jssora22r:hover {
+                                background-position: -190px -31px;
+                            }
+                            
+                            .jssora22l.jssora22ldn {
+                                background-position: -250px -31px;
+                            }
+                            
+                            .jssora22r.jssora22rdn {
+                                background-position: -310px -31px;
+                            }
+                        </style>
+
+
+                        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                            <!-- Loading Screen -->
+                            <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                            </div>
+                            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: -105px; width: 1300px; height: 500px; overflow: hidden;">
+                                <div data-p="225.00" style="display: none;">
+                                    <img data-u="image" src="img/MacBook.png" />
+                                </div>
+                                <div data-p="225.00" style="display: none;">
+                                    <img data-u="image" src="img/MacBook.png" />
+                                </div>
+                                <div data-p="225.00" style="display: none;">
+                                    <img data-u="image" src="img/MacBook.png" />
+                                </div>
+                            </div>
+                            <!-- Arrow Navigator -->
+                            <span data-u="arrowleft" class="jssora22l" style="top:40px;left:12px;width:40px;height:58px;"></span>
+                            <span data-u="arrowright" class="jssora22r" style="top:40px;
+                            right:12px;width:40px;height:58px;"></span>
+                        </div>
+                        <!-- #endregion Jssor Slider End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="container">
+            <div class="section-4-bg-4">
+                <h1>What People Say</h1>
+                <div class="col-6">
+                    <div class="bg-4-info-box">
+                        <div class="col-4">
+                            <img src="img/bg-4-info-box-hexahedron.png" alt="hexahedron">
+                        </div>
+                        <div class="col-8">
+                            <h2>Exepteur sint occaecat</h2>
+
+                            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="bg-4-info-box">
+                        <div class="col-4">
+                            <img src="img/bg-4-info-box-hexahedron.png" alt="hexahedron">
+                        </div>
+                        <div class="col-8">
+                            <h2>Exepteur sint occaecat</h2>
+
+                            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="bg-4-info-box">
+                        <div class="col-4">
+                            <img src="img/bg-4-info-box-hexahedron.png" alt="hexahedron">
+                        </div>
+                        <div class="col-8">
+                            <h2>Exepteur sint occaecat</h2>
+
+                            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="bg-4-info-box">
+                        <div class="col-4">
+                            <img src="img/bg-4-info-box-hexahedron.png" alt="hexahedron">
+                        </div>
+                        <div class="col-8">
+                            <h2>Exepteur sint occaecat</h2>
+
+                            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="bg-4-info-box">
+                        <div class="col-4">
+                            <img src="img/bg-4-info-box-hexahedron.png" alt="hexahedron">
+                        </div>
+                        <div class="col-8">
+                            <h2>Exepteur sint occaecat</h2>
+
+                            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="bg-4-info-box">
+                        <div class="col-4">
+                            <img src="img/bg-4-info-box-hexahedron.png" alt="hexahedron">
+                        </div>
+                        <div class="col-8">
+                            <h2>Exepteur sint occaecat</h2>
+
+                            <p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="section-5-bg-5">
+            <div class="container">
+                <div class="col-6 col-m-12">
+                    <div class="section-5-contact-left">
+                        <h1>Curabitur ornare neque</h1>
+
+                        <p>id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla fermentum nibh eu velit molestie ultricies. Curabitur non gravida urna, at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue lorem pharetra tortor, non tincidunt urna diam in libero. Nam et neque ut nisi consectetur tempor. Maecenas gravida est eu nisi dignissim gravida. Proin mollis sodales ullamcorper.</p>
+
+                        <div class="section-5-contact-left-info">
+                            <div class="pins">
+                                <div class="map-pin">
+                                    <p><img src="img/map_pin.png" alt="map pin">
+                                        <span>venenatis neque sit amet ante aliquam sollicitudin</span></p>
+                                </div>
+                                <div class="call-up">
+                                    <p><img src="img/call_up.png" alt="call up">
+                                        <span>0888-7738-21 / 0977-333-222-111</span></p>
+                                </div>
+                                <div class="mail">
+                                    <p><img src="img/mail.png" alt="mail">
+                                        <span>parturient@montes.com</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-m-12">
+                    <div class="section-5-contact-right">
+                        <form action="contact.php">
+                            <div class="input-fields">
+                                <div class="first-line">
+                                    <div class="col-6">
+                                        <input type="text" id="first-line-left" placeholder="your name">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" id="first-line-right" placeholder="your email">
+                                    </div>
+                                </div>
+                                <select id="dropdown" placeholder="your subject">
+                                    <option value="" disabled selected>
+                                        your subject</option>
+                                    <option value="iPhone">iPhone</option>
+                                    <option value="iPad">iPad</option>
+                                    <option value="iMac">iMac</option>
+                                </select>
+                                <textarea name="your message" rows=7 placeholder="your message"></textarea>
+                            </div>
+                            <div class="form-btns">
+                                <button type="reset" id="reset" value="reset">Reset</button>
+
+                                <button type="submit" id="submit" value="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-arrow">
+                    <center><img src="img/footer-arrow.png" alt="footer-arrow"></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <footer>
+            <div class="container">
+                <h1>Copyright 2013-2014 @anderyyan, All right reserved.</h1>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+@media only screen and (max-width: 470px) {
+    .header-buttons img {
+        display: none;
+    }
+    input.btn-1[type=button] {
+        margin-top: 36px;
+    }
+    input.btn-2[type=button] {
+        margin-top: 36px;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+    .bg-1 {
+        min-height: 1300px;
+    }
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        height: auto;
+    }
+    .logo p {
+        text-align: left;
+    }
+    .nav {}
+    .nav li,
+    #login {
+        width: 100%;
+        display: none;
+    }
+    .nav li {
+        text-align: left;
+        margin: 40px 0px 0px 0px;
+    }
+    .nav li:hover {
+        border: none;
+        padding: 0;
+    }
+    #ipad-psd img {
+        min-width: 0%;
+        margin-top: 60px;
+    }
+    .nav-button {
+        text-align: right;
+        display: block;
+        margin-top: 70px;
+        width: 100%;
+    }
+    .nav-button:before {
+        content: url(../img/menu.png);
+    }
+    .header-right-info h1 {
+        margin: 43px;
+    }
+    .section-1 h2 {
+        margin-top: 10px;
+        text-align:
+    }
+    .section-1 p {
+        text-align: center;
+    }
+    .stat-img {
+        margin-top: 32px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .bg-2 {
+        margin-top: 10px;
+        height: 1090px;
+    }
+    .section-2 {
+        margin-top: 18px;
+        height: 340px;
+    }
+    .bg-3 {
+        height: auto;
+    }
+    .section-bg {
+        min-width: 100%;
+    }
+    .section-bg-icon img {
+        margin: 40px auto;
+    }
+    .section-4-bg-4 h1 {
+        margin-top: 50px;
+    }
+    .bg-4-info-box h2 {
+        text-align: center;
+    }
+    .bg-4-info-box p {
+        text-align: center;
+    }
+    .section-5-bg-5 {
+        margin-top: 20px;
+    }
+    .section-5-contact-left {
+        margin: 0 auto;
+    }
+    .section-5-contact-left h1 {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .section-5-contact-left p {
+        text-align: center;
+    }
+    .section-5-contact-right {
+        margin-top: 72px;
+    }
+    form .first-line input[type=text] {
+        width: 100%;
+    }
+    form input[type=text]#first-line-right {
+        margin-top: 16px;
+    }
+    .form-btns {
+        width: 100%;
+        text-align: center;
+    }
+    button#reset {
+        width: 100%;
+    }
+    button#submit {
+        width: 100%;
+        margin-left: 0;
+    }
+}
